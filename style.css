@@ -48,7 +48,7 @@ main section h2 {
 }
 
 #sponsor-list .heading {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
   text-shadow: 0 0 8px rgba(0,0,0,0.5);
 }
@@ -56,11 +56,21 @@ main section h2 {
 #sponsor-list .heading.gold { color: gold }
 #sponsor-list .heading.silver { color: silver; text-shadow: 0 0 8px rgba(0,0,0,0.25) }
 #sponsor-list .heading.bronze { color: #cd7f32; text-shadow: 0 0 8px rgba(0,0,0,0.35) }
+#sponsor-list .heading.community { color: white }
 
 .sponsor {
   overflow: hidden;
   display: inline-block;
   margin: auto;
+  box-shadow: 0 0 0 black;
+  box-sizing: border-box;
+
+  transition: all 200ms;
+}
+
+.sponsor:hover {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  transform: translate3d(0,-5px,0);
 }
 
 .sponsor img {
@@ -69,8 +79,8 @@ main section h2 {
 }
 
 .sponsor.gold { width: 100% }
-.sponsor.silver { width: 80% }
-.sponsor.bronze { width: 50% }
+.sponsor.silver { width: 70% }
+.sponsor.bronze { width: 45% }
 
 @media (max-width: 667px) {
   body {
