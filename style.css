@@ -20,7 +20,7 @@ body {
 }
 
 #main-nav a {
-  color: #070;
+  color: #3c3;
   text-decoration: none;
 
   display: inline-block;
@@ -54,8 +54,8 @@ main section h2 {
 }
 
 #sponsor-list .heading.gold { color: gold }
-#sponsor-list .heading.silver { color: silver }
-#sponsor-list .heading.bronze { color: #cd7f32 }
+#sponsor-list .heading.silver { color: silver; text-shadow: 0 0 8px rgba(0,0,0,0.25) }
+#sponsor-list .heading.bronze { color: #cd7f32; text-shadow: 0 0 8px rgba(0,0,0,0.35) }
 
 .sponsor {
   overflow: hidden;
@@ -72,7 +72,7 @@ main section h2 {
 .sponsor.silver { width: 80% }
 .sponsor.bronze { width: 50% }
 
-@media (max-width: 414px) {
+@media (max-width: 667px) {
   body {
     font-size: 1.5em;
     margin: 0;
@@ -193,7 +193,7 @@ main section h2 {
   }
 }
 
-@media (min-width: 415px) {
+@media (min-width: 668px) {
   #nav-toggle input {
     display: none;
   }
