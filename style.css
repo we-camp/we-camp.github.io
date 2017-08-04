@@ -131,7 +131,8 @@ main section h2 {
               opacity 350ms ease;
   }
 
-  #nav-toggle span:first-child {
+  #nav-toggle span:nth-child(2) {
+    margin-top: 3px;
     transform-origin: 0% 0%;
   }
 
@@ -141,7 +142,7 @@ main section h2 {
 
   #nav-toggle input:checked ~ span {
     opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
+    transform: rotate(45deg) translate(-2px, -3px);
     background: #909090;
   }
 
@@ -152,7 +153,7 @@ main section h2 {
 
   #nav-toggle input:checked ~ span:nth-last-child(2) {
     opacity: 1;
-    transform: rotate(-45deg) translate(0, -1px);
+    transform: rotate(-45deg) translate(0, 1px);
   }
 
   #nav-toggle input:checked ~ #main-nav {
