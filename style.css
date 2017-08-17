@@ -32,6 +32,14 @@ body {
   margin: auto;
 }
 
+#hero {
+  text-align: center;
+}
+
+.dates {
+  font-size: 1.3em;
+}
+
 main section {
   padding-top: 40px;
 }
