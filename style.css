@@ -49,6 +49,30 @@ main section h2 {
   padding-bottom: 0.2em;
 }
 
+.schedule-day {
+  width: 100%;
+}
+
+.schedule-day .day {
+  box-sizing: border-box;
+  font-size: 1.5em;
+  margin-top: 0.8em;
+  padding-left: 20%;
+  text-align: left;
+  width: 25%;
+}
+
+.schedule-day td, .schedule-day th {
+  box-sizing: border-box;
+  padding: 0.5em 0.75em;
+  vertical-align: top;
+}
+
+.schedule-day th {
+  text-align: right;
+  width: 25%;
+}
+
 #sponsor-list {
   list-style: none;
   padding-left: 0;
