@@ -82,6 +82,7 @@ main section h2 {
 #sponsor-list .heading {
   font-size: 2em;
   font-weight: bold;
+  margin-top: 1em;
   text-shadow: 0 0 8px rgba(0,0,0,0.5);
 }
 
