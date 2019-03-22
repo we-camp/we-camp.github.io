@@ -13,15 +13,10 @@ body {
   font-family: Sans-Serif;
 }
 
-a {
-  color: blue;
-}
-
 #main-nav {
   background-color: black;
   color: white;
   margin: 0 -2em 2em;
-  position: fixed;
 }
 
 #main-nav a {
@@ -30,13 +25,11 @@ a {
 
   display: inline-block;
   padding: 0.5em 0.8em;
-  flex 1 1;
 }
 
 #logo {
   max-width: 90vw;
   margin: auto;
-  padding-top: 60px;
 }
 
 #hero {
@@ -234,19 +227,16 @@ main section h2 {
     font-weight: bold;
   }
 
+  #logo {
+    padding-top: 60px;
+  }
+
   #sponsor-list .heading {
     font-size: 1.5em;
   }
 }
 
 @media (min-width: 668px) {
-  #main-nav {
-    width: 800px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
   #nav-toggle input {
     display: none;
   }
